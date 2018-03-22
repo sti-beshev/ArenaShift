@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="background" type="color">#1c1c1c</item>
+    <item name="mainBlue" type="color">#02bbe9</item>
+    <item name="myWhite" type="color">#ffffff</item>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ac1e23">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="100dp"
+        android:firstDayOfWeek="2"
+        android:selectedWeekBackgroundColor="#dadada"
+        android:background="#ac1e23"
+        android:focusedMonthDateColor="#ffffff"
+        android:weekSeparatorLineColor="#ffffff"
+        android:weekNumberColor="#ffffff"
+        android:showWeekNumber="false"
+        android:unfocusedMonthDateColor="#5c5757"
+        tools:background="#ac1e23"
+        />
+
+    <Button
+        android:id="@+id/buttonShowShift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Покажи Смяна"
+        tools:ignore="HardcodedText"
+        android:background="#ffffff"
+        android:textColor="#ac1e23"
+        android:padding="15dp" />
+
+</RelativeLayout>

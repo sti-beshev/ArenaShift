@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.beshev.arenashift.activity.MainActivity"
+    tools:ignore="RtlHardcoded,UselessParent">
+
+    <ViewFlipper
+        android:id="@+id/mainViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/background">
+
+        <RelativeLayout
+            android:id="@+id/calendarLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <include
+                layout="@layout/layout_calendar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/shiftLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <include layout="@layout/layout_shift" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/updateLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <include layout="@layout/layout_update" />
+
+        </RelativeLayout>
+
+    </ViewFlipper>
+
+</RelativeLayout>

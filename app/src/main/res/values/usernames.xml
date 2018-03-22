@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="users_array">
+        <item>Боби</item>
+        <item>Венци</item>
+        <item>Стилиян</item>
+        <item>Анелия</item>
+        <item>Багряна</item>
+        <item>Ивка</item>
+        <item>Малката Катя</item>
+        <item>Наталия</item>
+        <item>Бинка</item>
+        <item>Дафинела</item>
+        <item>Кака</item>
+        <item>Наталия Раз</item>
+        <item>Дев</item>
+    </string-array>
+    
+</resources>
